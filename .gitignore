@@ -152,3 +152,6 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Build files
+dist/**/*.js
