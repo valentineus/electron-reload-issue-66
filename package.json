@@ -1,0 +1,9 @@
+{
+  "name": "electron-reload-issue-66",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:valentineus/electron-reload-issue-66.git",
+  "author": "Valentin Popov <info@valentineus.link>",
+  "license": "MIT",
+  "private": true
+}
