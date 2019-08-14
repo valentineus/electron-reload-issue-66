@@ -1,9 +1,12 @@
 // Modules to control application life and create native browser window
 import { app, BrowserWindow } from 'electron'
+import electronReload from '../packages/electron-reload/main'
 
 // Keep a global reference of the window object, if you don't, the window will
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow
+
+electronReload(__dirname)
 
 function createWindow () {
   // Create the browser window.
